@@ -5,9 +5,9 @@ import Projects from "./pages/Projects";
 import Home from "./pages/Home";
 import "./index.css";
 import Default from "./pages/Default";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <App />,
