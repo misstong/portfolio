@@ -1,0 +1,46 @@
+.row {
+	display: flex;
+	gap: 3em;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	width: 300px;
+	cursor: pointer;
+	/* transition-delay: .3s; */
+	
+}
+.card .wrapper{
+	min-height: 344px;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+.parent {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.card .data {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  transition: transform 0.3s;
+  background: rgba(0, 0, 0, 0.55);
+	height: 76%;
+	color: #fff;
+	transform: translateY(80px);
+}
+
+.content{
+	padding: 2em;
+}
+.title{
+	font-size: 1.2em;
+}
+
+.card:hover .data {
+	transform: translateY(0);
+}

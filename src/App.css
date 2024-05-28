@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #f6f6f6;
+  transition: background-color .3s;
+}
+
+
+html.dark {
+  background-color: #141516;
+  color: #ced4e2;
+}

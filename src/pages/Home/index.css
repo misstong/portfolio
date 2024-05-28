@@ -1,0 +1,17 @@
+.text {
+	font-size: 25px;
+	margin-top:70px;
+}
+center {
+	display: flex;
+	justify-content: center;
+}
+.typed-cursor {
+	display: none;
+}
+#particles {
+	width: 100vw;
+	height: 100vh;
+	position: absolute;
+	z-index: -1;
+}
