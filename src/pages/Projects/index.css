@@ -36,6 +36,16 @@
 
 .content{
 	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 70%;
+}
+.links {
+	text-align: end;
+}
+a.social-icon {
+	display: inline-block;
 }
 .title{
 	font-size: 1.2em;
